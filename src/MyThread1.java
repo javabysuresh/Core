@@ -28,6 +28,6 @@ class MyThread1 extends Thread
 			System.out.println("Main Thread is Excuting: " +s1+"......."+hs.get(s1));
 			Thread.sleep(3000);
 		}
-		System.out.println(hs);
+		System.out.println(hs);//prints
 	}
 }
